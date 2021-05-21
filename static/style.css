@@ -1,0 +1,54 @@
+.header{
+   display:flex;
+    flex-direction:column;
+    /* border:1px solid black; */
+    justify-content: center;
+    align-items: center;
+  
+}
+.header_game
+{
+   /* border:1px solid black; */
+   width:340px;
+   padding:10px;
+
+  
+}
+button{
+    font-size:25px;
+}
+
+.header_game img{
+padding:3px;
+}
+@media(max-width:375px) {
+    .header_game{
+        width:210px;flex-wrap: wrap;
+    }
+    .header_game{
+        width:220px;
+
+    }
+    .header_game img{
+        width:60px;
+        height:60px;
+    }
+    #status{
+        font-size: 20px;
+    }
+    h2{
+        margin:0px;
+    }
+    button{
+        font-size:15px;
+        margin:3px;
+
+    }
+}
+.header p{
+    /* background-color: red; */
+    font-size: 30px;
+    margin: 0px;
+    padding:0px;
+}
+
