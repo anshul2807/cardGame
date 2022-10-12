@@ -1,3 +1,6 @@
+body{
+  background:cyan;
+}
 .header{
    display:flex;
     flex-direction:column;
